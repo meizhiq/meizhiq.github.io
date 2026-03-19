@@ -62,15 +62,24 @@
             {% if p.nav and p.autogen == null %}
               {% comment %} Map English title to Chinese translation {% endcomment %}
               {% assign p_title_zh = p.title %}
-              {% if p.title == 'CV' %}{% assign p_title_zh = '简历' %}
-              {% elsif p.title == 'publications' %}{% assign p_title_zh = '论文' %}
-              {% elsif p.title == 'projects' %}{% assign p_title_zh = '项目' %}
-              {% elsif p.title == 'teaching' %}{% assign p_title_zh = '教学' %}
-              {% elsif p.title == 'repositories' %}{% assign p_title_zh = '代码库' %}
-              {% elsif p.title == 'news' %}{% assign p_title_zh = '动态' %}
-              {% elsif p.title == 'blog' %}{% assign p_title_zh = '博客' %}
-              {% elsif p.title == 'bookshelf' %}{% assign p_title_zh = '书架' %}
-              {% elsif p.title == 'submenus' %}{% assign p_title_zh = '更多' %}
+              {% if p.title == 'CV' -%}
+                {%- assign p_title_zh = '简历' %}
+              {% elsif p.title == 'publications' -%}
+                {%- assign p_title_zh = '论文' %}
+              {% elsif p.title == 'projects' -%}
+                {%- assign p_title_zh = '项目' %}
+              {% elsif p.title == 'teaching' -%}
+                {%- assign p_title_zh = '教学' %}
+              {% elsif p.title == 'repositories' -%}
+                {%- assign p_title_zh = '代码库' %}
+              {% elsif p.title == 'news' -%}
+                {%- assign p_title_zh = '动态' %}
+              {% elsif p.title == 'blog' -%}
+                {%- assign p_title_zh = '博客' %}
+              {% elsif p.title == 'bookshelf' -%}
+                {%- assign p_title_zh = '书架' %}
+              {% elsif p.title == 'submenus' -%}
+                {%- assign p_title_zh = '更多' %}
               {% endif %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
