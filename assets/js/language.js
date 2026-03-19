@@ -7,17 +7,11 @@ let initLanguage = () => {
   document.addEventListener("DOMContentLoaded", function () {
     updateLangToggle(lang);
 
-    const enBtn = document.getElementById("lang-toggle-en");
-    const zhBtn = document.getElementById("lang-toggle-zh");
-
-    if (enBtn) {
-      enBtn.addEventListener("click", function () {
-        setLanguage("en");
-      });
-    }
-    if (zhBtn) {
-      zhBtn.addEventListener("click", function () {
-        setLanguage("zh");
+    const btn = document.getElementById("lang-toggle");
+    if (btn) {
+      btn.addEventListener("click", function () {
+        const current = document.documentElement.getAttribute("data-lang") || "en";
+        setLanguage(current === "zh" ? "en" : "zh");
       });
     }
   });
@@ -30,14 +24,7 @@ let setLanguage = (lang) => {
 };
 
 let updateLangToggle = (lang) => {
-  const enBtn = document.getElementById("lang-toggle-en");
-  const zhBtn = document.getElementById("lang-toggle-zh");
-  if (!enBtn || !zhBtn) return;
-  if (lang === "zh") {
-    enBtn.classList.remove("lang-active");
-    zhBtn.classList.add("lang-active");
-  } else {
-    enBtn.classList.add("lang-active");
-    zhBtn.classList.remove("lang-active");
-  }
+  const btn = document.getElementById("lang-toggle");
+  if (!btn) return;
+  btn.textContent = lang === "zh" ? "🌐 EN" : "🌐 中";
 };

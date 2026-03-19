@@ -155,80 +155,40 @@
   }
 }
 
-#light-toggle {
-  padding: 0;
-  border: 0;
-  background-color: inherit;
-  color: var(--global-text-color);
-  /* Fix footprint to prevent navbar shifting when icon changes */
-  width: 2rem;
-  height: 2rem;
-  display: inline-flex;
+// Unified controls: Language · Search · Theme
+.nav-controls-item {
+  display: flex;
   align-items: center;
-  justify-content: center;
-
-  &:hover {
-    color: var(--global-hover-color);
-  }
 }
 
-@media (min-width: 576px) {
-  #light-toggle {
-    transform: translateY(4px);
-  }
-}
-
-#search-toggle {
-  padding: 0;
-  border: 0;
-  background-color: inherit;
-  color: var(--global-text-color);
-
-  &:hover {
-    color: var(--global-hover-color);
-  }
-}
-
-// Language toggle button
-.lang-toggle-container {
+.nav-controls-group {
   display: inline-flex;
   align-items: center;
   gap: 2px;
-  padding: 0 4px;
 }
 
-@media (min-width: 576px) {
-  .lang-toggle-container {
-    transform: translateY(4px);
-  }
-}
 
-.lang-toggle-btn {
-  padding: 0 4px;
+.nav-icon-btn {
+  padding: 0 5px;
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
   font-size: 0.85rem;
   cursor: pointer;
-  opacity: 0.5;
-  transition: opacity 0.2s;
+  opacity: 0.65;
+  transition:
+    opacity 0.2s,
+    color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  height: 2rem;
 
   &:hover {
     opacity: 1;
     color: var(--global-hover-color);
   }
-
-  &.lang-active {
-    opacity: 1;
-    font-weight: bold;
-    color: var(--global-theme-color);
-  }
-}
-
-.lang-divider {
-  color: var(--global-divider-color);
-  font-size: 0.8rem;
-  user-select: none;
 }
 
 // Language content visibility

@@ -129,31 +129,23 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          <!-- Language Toggle -->
-          <li class="nav-item">
-            <div class="lang-toggle-container">
-              <button id="lang-toggle-en" class="lang-toggle-btn" title="English">EN</button>
-              <span class="lang-divider">|</span>
-              <button id="lang-toggle-zh" class="lang-toggle-btn" title="中文">中</button>
+          <!-- Controls: Language · Search · Theme -->
+          <li class="nav-item nav-controls-item">
+            <div class="nav-controls-group">
+              <button id="lang-toggle" class="nav-icon-btn" title="Switch language"></button>
+              {% if site.search_enabled %}
+                <button id="search-toggle" class="nav-icon-btn" title="Search" onclick="openSearchModal()">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              {% endif %}
+              {% if site.enable_darkmode %}
+                <button id="light-toggle" class="nav-icon-btn" title="Change theme">
+                  <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
+                  <i class="fa-solid fa-sun" id="light-toggle-light"></i>
+                </button>
+              {% endif %}
             </div>
           </li>
-          {% if site.search_enabled %}
-            <!-- Search -->
-            <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span>
-              </button>
-            </li>
-          {% endif %}
-          {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
-            <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
-                <i class="fa-solid fa-sun" id="light-toggle-light"></i>
-              </button>
-            </li>
-          {% endif %}
         </ul>
       </div>
     </div>
