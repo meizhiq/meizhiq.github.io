@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 subtitle_zh: <a href='#'>所属机构</a>。地址。联系方式。格言。等等。
