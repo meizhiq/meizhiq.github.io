@@ -275,6 +275,7 @@ scholar:
 
   style: apa
   locale: en
+  max_authors: 100
 
   source: /_bibliography/
   bibliography: papers.bib
