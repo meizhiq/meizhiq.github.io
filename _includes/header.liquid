@@ -49,7 +49,7 @@
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              <span class="lang-en">about</span><span class="lang-zh">关于</span>
+              <span class="lang-en">{{- about_title }}</span><span class="lang-zh">关于</span>
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -64,11 +64,11 @@
               {% assign p_title_zh = p.title %}
               {% if p.title == 'CV' -%}
                 {%- assign p_title_zh = '简历' %}
-              {% elsif p.title == 'publications' -%}
+              {% elsif p.title == 'Publications' -%}
                 {%- assign p_title_zh = '论文' %}
-              {% elsif p.title == 'projects' -%}
+              {% elsif p.title == 'Projects' -%}
                 {%- assign p_title_zh = '项目' %}
-              {% elsif p.title == 'teaching' -%}
+              {% elsif p.title == 'Teaching' -%}
                 {%- assign p_title_zh = '教学' %}
               {% elsif p.title == 'repositories' -%}
                 {%- assign p_title_zh = '代码库' %}

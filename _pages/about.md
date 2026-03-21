@@ -14,7 +14,7 @@ profile:
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
@@ -39,8 +39,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 </div>
 
 <div class="lang-zh" markdown="1">
-
-我是钱美智。请在这里写下您的个人简介，向世界介绍您自己。您也可以在这里放一张照片——只需将图片命名为 `prof_pic.jpg` 并放入 `img/` 文件夹即可。
 
 您可以在照片下方填写地址、邮箱或其他联系信息。也可以通过编辑 `_pages/about.md` 的 YAML 头部来关闭任何您不需要的模块。编辑 `_bibliography/papers.bib` 文件，Jekyll 会自动生成您的[论文页面](/al-folio/publications/)。
 
