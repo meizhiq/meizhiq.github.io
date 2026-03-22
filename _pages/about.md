@@ -2,17 +2,24 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-subtitle_zh: <a href='#'>所属机构</a>。地址。联系方式。格言。等等。
+# Address shown directly below the name heading
+subtitle: "Office 315, Friedrich-Alexander-Universität Erlangen-Nürnberg"
+subtitle_zh: "315室，埃尔朗根-纽伦堡弗里德里希-亚历山大大学"
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
+  # Contact and academic profile links shown below the photo.
+  # Each line: left icon + right label/link. Replace # with actual URLs.
   more_info: >
-    <p>Office 315</p>
-    <p>Friedrich-Alexander-Universität Erlangen-Nürnberg</p>
-    <p>meizhi.qian@fau.de</p>
+    <div class="profile-links" style="margin-top:0.6rem;font-size:0.85rem;line-height:2;font-family:inherit;">
+      <div><a href="mailto:meizhi.qian@fau.de"><i class="fa-solid fa-envelope"></i>&nbsp;meizhi.qian@fau.de</a></div>
+      <div><a href="#"><i class="ai ai-researchgate"></i>&nbsp;ResearchGate</a></div>
+      <div><a href="#"><i class="ai ai-orcid"></i>&nbsp;ORCID</a></div>
+      <div><a href="#"><i class="ai ai-google-scholar"></i>&nbsp;Google Scholar</a></div>
+      <div><a href="#"><i class="ai ai-mathscinet"></i>&nbsp;MathSciNet</a></div>
+    </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
