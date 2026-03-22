@@ -13,12 +13,27 @@ profile:
   # Contact and academic profile links shown below the photo.
   # Each line: left icon + right label/link. Replace # with actual URLs.
   more_info: >
-    <div class="profile-links" style="margin-top:0.6rem;font-size:0.85rem;line-height:2;font-family:inherit;">
-      <div><a href="mailto:meizhi.qian@fau.de"><i class="fa-solid fa-envelope"></i>&nbsp;meizhi.qian@fau.de</a></div>
-      <div><a href="#"><i class="ai ai-researchgate"></i>&nbsp;ResearchGate</a></div>
-      <div><a href="#"><i class="ai ai-orcid"></i>&nbsp;ORCID</a></div>
-      <div><a href="#"><i class="ai ai-google-scholar"></i>&nbsp;Google Scholar</a></div>
-      <div><a href="#"><i class="ai ai-mathscinet"></i>&nbsp;MathSciNet</a></div>
+    <div style="margin-top:0.8rem;display:flex;flex-direction:column;gap:0;font-family:'Inter',Helvetica,Arial,sans-serif;font-size:0.82rem;line-height:1.5;">
+      <a href="mailto:meizhi.qian@fau.de" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+        <span style="display:inline-flex;justify-content:center;align-items:center;width:20px;flex-shrink:0;"><i class="fa-solid fa-envelope" style="color:#1a1a1a;font-size:0.9rem;"></i></span>
+        <span style="margin-left:16px;">meizhi.qian@fau.de</span>
+      </a>
+      <a href="#" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+        <span style="display:inline-flex;justify-content:center;align-items:center;width:20px;flex-shrink:0;"><i class="ai ai-researchgate" style="color:#1a1a1a;font-size:1rem;"></i></span>
+        <span style="margin-left:16px;">ResearchGate</span>
+      </a>
+      <a href="#" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+        <span style="display:inline-flex;justify-content:center;align-items:center;width:20px;flex-shrink:0;"><i class="ai ai-orcid" style="color:#1a1a1a;font-size:1rem;"></i></span>
+        <span style="margin-left:16px;">ORCID</span>
+      </a>
+      <a href="#" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+        <span style="display:inline-flex;justify-content:center;align-items:center;width:20px;flex-shrink:0;"><i class="ai ai-google-scholar" style="color:#1a1a1a;font-size:1rem;"></i></span>
+        <span style="margin-left:16px;">Google Scholar</span>
+      </a>
+      <a href="#" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+        <span style="display:inline-flex;justify-content:center;align-items:center;width:20px;flex-shrink:0;"><i class="ai ai-mathscinet" style="color:#1a1a1a;font-size:1rem;"></i></span>
+        <span style="margin-left:16px;">MathSciNet</span>
+      </a>
     </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
