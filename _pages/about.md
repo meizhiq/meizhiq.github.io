@@ -34,12 +34,13 @@ profile:
         <span style="display:inline-flex;justify-content:center;align-items:center;width:20px;flex-shrink:0;"><i class="ai ai-google-scholar" style="color:#1a1a1a;font-size:1.05rem;"></i></span>
         <span style="margin-left:16px;">Google Scholar</span>
       </a>
-      <!-- MathSciNet: inline SVG MR badge (not in Academicons) -->
+      <!-- MathSciNet: inline SVG — three wavy lines (official AMS MathSciNet brand mark) -->
       <a href="#" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
         <span style="display:inline-flex;justify-content:center;align-items:center;width:20px;flex-shrink:0;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 100 100" aria-label="MathSciNet">
-            <circle cx="50" cy="50" r="46" fill="none" stroke="#1a1a1a" stroke-width="8"/>
-            <text x="50" y="63" text-anchor="middle" font-family="Georgia,serif" font-size="36" font-weight="bold" fill="#1a1a1a">MR</text>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 24 16" aria-label="MathSciNet" fill="none">
+            <path d="M0,3 C3,-0.5 9,6.5 12,3 S21,-0.5 24,3" stroke="#0055A5" stroke-width="1.8" stroke-linecap="round"/>
+            <path d="M0,8 C3,4.5 9,11.5 12,8 S21,4.5 24,8"  stroke="#0055A5" stroke-width="1.8" stroke-linecap="round"/>
+            <path d="M0,13 C3,9.5 9,16.5 12,13 S21,9.5 24,13" stroke="#0055A5" stroke-width="1.8" stroke-linecap="round"/>
           </svg>
         </span>
         <span style="margin-left:16px;">MathSciNet</span>
