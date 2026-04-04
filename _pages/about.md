@@ -35,12 +35,12 @@ profile:
         <span style="margin-left:18px;">Google Scholar</span>
       </a>
       <!-- MathSciNet: inline SVG — three wavy lines (official AMS MathSciNet brand mark) -->
-      <a href="#" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+      <div style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
         <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;">
             <img src="/assets/img/AMSlogo.png" alt="MathSciNet" style="display:block;width:18px;height:18px;object-fit:contain;" />
         </span>
         <span style="margin-left:18px;">MathSciNet</span>
-      </a>
+      </div>
     </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
