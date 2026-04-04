@@ -13,37 +13,33 @@ profile:
   # Contact and academic profile links shown below the photo.
   # Each line: left icon + right label/link. Replace # with actual URLs.
   more_info: >
-    <div style="margin-top:0.8rem;display:flex;flex-direction:column;gap:0;font-family:'Inter',Helvetica,Arial,sans-serif;font-size:0.82rem;line-height:1.5;">
-      <!-- Email: Font Awesome fa-envelope -->
+    <div style="margin-top:0.8rem;display:flex;flex-direction:column;gap:0.3rem;font-family:'Inter',Helvetica,Arial,sans-serif;font-size:0.82rem;line-height:1.6;">
+      <!-- Email -->
       <a href="mailto:meizhi.qian@fau.de" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
-        <span style="display:inline-flex;justify-content:center;align-items:center;width:20px;flex-shrink:0;"><i class="fa-solid fa-envelope" style="color:#1a1a1a;font-size:0.9rem;"></i></span>
-        <span style="margin-left:16px;">meizhi.qian@fau.de</span>
+        <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><i class="fa-solid fa-envelope" style="color:#3f7fc5;font-size:1.12rem;"></i></span>
+        <span style="margin-left:18px;">meizhi.qian@fau.de</span>
       </a>
       <!-- ResearchGate: Academicons ai-researchgate -->
-      <a href="#" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
-        <span style="display:inline-flex;justify-content:center;align-items:center;width:20px;flex-shrink:0;"><i class="ai ai-researchgate" style="color:#1a1a1a;font-size:1.05rem;"></i></span>
-        <span style="margin-left:16px;">ResearchGate</span>
+      <a href="https://www.researchgate.net/profile/Meizhi_Qian" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+        <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><img src="/assets/img/ResearchGate_icon_SVG.svg.png" alt="ResearchGate" style="display:block;width:21px;height:21px;object-fit:contain;" /></span>
+        <span style="margin-left:18px;">ResearchGate</span>
       </a>
       <!-- ORCID: Academicons ai-orcid -->
-      <a href="#" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
-        <span style="display:inline-flex;justify-content:center;align-items:center;width:20px;flex-shrink:0;"><i class="ai ai-orcid" style="color:#1a1a1a;font-size:1.05rem;"></i></span>
-        <span style="margin-left:16px;">ORCID</span>
+      <a href="https://orcid.org/my-orcid?orcid=0000-0003-0518-0859" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+        <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><img src="/assets/img/ORCID_iD.svg.png" alt="ORCID" style="display:block;width:21px;height:21px;object-fit:contain;" /></span>
+        <span style="margin-left:18px;">ORCID</span>
       </a>
       <!-- Google Scholar: Academicons ai-google-scholar (graduation cap) -->
-      <a href="#" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
-        <span style="display:inline-flex;justify-content:center;align-items:center;width:20px;flex-shrink:0;"><i class="ai ai-google-scholar" style="color:#1a1a1a;font-size:1.05rem;"></i></span>
-        <span style="margin-left:16px;">Google Scholar</span>
+      <a href="https://scholar.google.com/citations?user=ZvZ6kmYAAAAJ&hl=zh-CN&oi=ao" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+        <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><img src="/assets/img/GoogleScholar-logo.png" alt="Google Scholar" style="display:block;width:18px;height:18px;object-fit:contain;" /></span>
+        <span style="margin-left:18px;">Google Scholar</span>
       </a>
       <!-- MathSciNet: inline SVG — three wavy lines (official AMS MathSciNet brand mark) -->
       <a href="#" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
-        <span style="display:inline-flex;justify-content:center;align-items:center;width:20px;flex-shrink:0;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 24 16" aria-label="MathSciNet" fill="none">
-            <path d="M0,3 C3,-0.5 9,6.5 12,3 S21,-0.5 24,3" stroke="#0055A5" stroke-width="1.8" stroke-linecap="round"/>
-            <path d="M0,8 C3,4.5 9,11.5 12,8 S21,4.5 24,8"  stroke="#0055A5" stroke-width="1.8" stroke-linecap="round"/>
-            <path d="M0,13 C3,9.5 9,16.5 12,13 S21,9.5 24,13" stroke="#0055A5" stroke-width="1.8" stroke-linecap="round"/>
-          </svg>
+        <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;">
+            <img src="/assets/img/AMSlogo.png" alt="MathSciNet" style="display:block;width:18px;height:18px;object-fit:contain;" />
         </span>
-        <span style="margin-left:16px;">MathSciNet</span>
+        <span style="margin-left:18px;">MathSciNet</span>
       </a>
     </div>
 
