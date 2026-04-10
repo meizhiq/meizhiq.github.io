@@ -1,0 +1,32 @@
+<div style="margin-top:0.8rem;display:flex;flex-direction:column;gap:0.3rem;font-family:'Inter',Helvetica,Arial,sans-serif;font-size:0.82rem;line-height:1.6;">
+  {% if site.data.socials.email %}
+    <a href="mailto:{{ site.data.socials.email }}" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+      <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><i class="fa-solid fa-envelope" style="color:#3f7fc5;font-size:1.12rem;"></i></span>
+      <span style="margin-left:18px;">{{ site.data.socials.email }}</span>
+    </a>
+  {% endif %}
+  {% if site.data.socials.researchgate_url %}
+    <a href="{{ site.data.socials.researchgate_url }}" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+      <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><img src="/assets/img/ResearchGate_icon_SVG.svg.png" alt="ResearchGate" style="display:block;width:21px;height:21px;object-fit:contain;" /></span>
+      <span style="margin-left:18px;">ResearchGate</span>
+    </a>
+  {% endif %}
+  {% if site.data.socials.orcid_url %}
+    <a href="{{ site.data.socials.orcid_url }}" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+      <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><img src="/assets/img/ORCID_iD.svg.png" alt="ORCID" style="display:block;width:21px;height:21px;object-fit:contain;" /></span>
+      <span style="margin-left:18px;">ORCID</span>
+    </a>
+  {% endif %}
+  {% if site.data.socials.scholar_userid %}
+    <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+      <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><img src="/assets/img/GoogleScholar-logo.png" alt="Google Scholar" style="display:block;width:18px;height:18px;object-fit:contain;" /></span>
+      <span style="margin-left:18px;">Google Scholar</span>
+    </a>
+  {% endif %}
+  {% if site.data.socials.mathscinet_url %}
+    <a href="{{ site.data.socials.mathscinet_url }}" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
+      <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><img src="/assets/img/AMSlogo.png" alt="MathSciNet" style="display:block;width:18px;height:18px;object-fit:contain;" /></span>
+      <span style="margin-left:18px;">MathSciNet</span>
+    </a>
+  {% endif %}
+</div>

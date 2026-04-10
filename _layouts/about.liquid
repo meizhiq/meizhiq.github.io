@@ -19,7 +19,9 @@ layout: default
           cache_bust=true
         %}
       {% endif %}
-      {% if page.profile.more_info %}
+      {% if page.profile.more_info_include %}
+        <div class="more-info">{% include {{ page.profile.more_info_include }} %}</div>
+      {% elsif page.profile.more_info %}
         <div class="more-info">{{ page.profile.more_info }}</div>
       {% endif %}
     </div>

@@ -10,38 +10,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  # Contact and academic profile links shown below the photo.
-  # Each line: left icon + right label/link. Replace # with actual URLs.
-  more_info: >
-    <div style="margin-top:0.8rem;display:flex;flex-direction:column;gap:0.3rem;font-family:'Inter',Helvetica,Arial,sans-serif;font-size:0.82rem;line-height:1.6;">
-      <!-- Email -->
-      <a href="mailto:meizhi.qian@fau.de" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
-        <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><i class="fa-solid fa-envelope" style="color:#3f7fc5;font-size:1.12rem;"></i></span>
-        <span style="margin-left:18px;">meizhi.qian@fau.de</span>
-      </a>
-      <!-- ResearchGate: Academicons ai-researchgate -->
-      <a href="https://www.researchgate.net/profile/Meizhi_Qian" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
-        <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><img src="/assets/img/ResearchGate_icon_SVG.svg.png" alt="ResearchGate" style="display:block;width:21px;height:21px;object-fit:contain;" /></span>
-        <span style="margin-left:18px;">ResearchGate</span>
-      </a>
-      <!-- ORCID: Academicons ai-orcid -->
-      <a href="https://orcid.org/my-orcid?orcid=0000-0003-0518-0859" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
-        <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><img src="/assets/img/ORCID_iD.svg.png" alt="ORCID" style="display:block;width:21px;height:21px;object-fit:contain;" /></span>
-        <span style="margin-left:18px;">ORCID</span>
-      </a>
-      <!-- Google Scholar: Academicons ai-google-scholar (graduation cap) -->
-      <a href="https://scholar.google.com/citations?user=ZvZ6kmYAAAAJ&hl=zh-CN&oi=ao" style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
-        <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;"><img src="/assets/img/GoogleScholar-logo.png" alt="Google Scholar" style="display:block;width:18px;height:18px;object-fit:contain;" /></span>
-        <span style="margin-left:18px;">Google Scholar</span>
-      </a>
-      <!-- MathSciNet: inline SVG — three wavy lines (official AMS MathSciNet brand mark) -->
-      <div style="display:flex;align-items:center;color:#1a1a1a;text-decoration:none;">
-        <span style="display:inline-flex;justify-content:center;align-items:center;width:24px;flex-shrink:0;">
-            <img src="/assets/img/AMSlogo.png" alt="MathSciNet" style="display:block;width:18px;height:18px;object-fit:contain;" />
-        </span>
-        <span style="margin-left:18px;">MathSciNet</span>
-      </div>
-    </div>
+  more_info_include: profile_links.liquid
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
